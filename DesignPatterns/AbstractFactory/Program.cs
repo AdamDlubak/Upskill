@@ -6,7 +6,8 @@ namespace AbstractFactory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new Computer("PC0001", new AMDFactory());
+            new Computer("PC0002", new IntelFactory());
         }
     }
 }
