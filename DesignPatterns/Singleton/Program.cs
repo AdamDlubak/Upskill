@@ -19,7 +19,6 @@ namespace Singleton
             {
                 NumberOfProducts = productsNumber;
             }
-
         }
 
         static void Main(string[] args)
