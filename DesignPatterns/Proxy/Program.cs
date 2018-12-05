@@ -6,7 +6,12 @@ namespace Proxy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var password = Console.ReadLine();
+
+            var proxy = new Proxy(password);
+            proxy.DoSomeThing();
+
+            Console.ReadKey();
         }
     }
 }
